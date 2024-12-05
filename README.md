@@ -11,7 +11,7 @@ Bu araç, **E-Arşiv Portalı** üzerinden PDF formatındaki belgeleri indirmeni
 
 - Başlangıç ve bitiş tarihine göre PDF belgelerini indirme.
 - Belgeleri otomatik olarak dönüştürme ve yeniden adlandırma.
-- Kullanıcı adı ve şifreyi güvenli şekilde saklama.
+- Kullanıcı adı ve şifreyi güvenli şekilde saklama. # Güncel olarak Encryption sistemi yapılmadığı için güvenilir değildir. Güvenlik size aittir!
 - Arayüz üzerinden kolay işlem yapma imkanı.
 
 ---
@@ -56,13 +56,13 @@ Kod, indirdiği PDF dosyalarını `pdfler` klasörüne kaydeder. Eğer bu klasö
 
 4. **Kullanıcı Bilgilerini Kaydedin**
 - Arayüzde kullanıcı adı ve şifre alanını doldurarak bilgilerinizi kaydedebilirsiniz.
-- Kaydedilen bilgiler, **`credentials.txt`** dosyasına güvenli bir şekilde saklanacaktır.
+- Kaydedilen bilgiler, **`credentials.txt`** dosyasına güvenli bir şekilde saklanacaktır. # Güncel olarak Encryption sistemi yapılmadığı için güvenilir değildir. Güvenlik size aittir!
 
 ---
 
 ## Kullanım Talimatları
 
-1. Programı başlatmak için `python script_adı.py` komutunu çalıştırın.
+1. Programı başlatmak için `python PDFindir GUI.py` komutunu çalıştırın.
 2. Açılan gui tasarımında:
 - İndirmek istediğiniz faturalarınızın **Başlangıç** ve **Bitiş Tarihi**'ni seçin.
 - Kullanıcı adı ve şifrenizi girin.
@@ -74,7 +74,7 @@ Kod, indirdiği PDF dosyalarını `pdfler` klasörüne kaydeder. Eğer bu klasö
 
 ## Dosya Yapısı
 
-- `script.py` : Ana uygulama kodu.
+- `PDFindir GUI.py` : Ana uygulama kodu.
 - `credentials.txt` : Kullanıcı bilgilerini saklayan dosya.
 - `pdfler/` : İndirilen ve dönüştürülen PDF belgelerinin saklandığı klasör.
 
